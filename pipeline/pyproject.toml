@@ -6,5 +6,16 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pandas>=3.0.3",
+    "pgcli>=4.5.0",
+    "psycopg2-binary>=2.9.12",
     "pyarrow>=24.0.0",
+    "sqlalchemy>=2.0.50",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "notebook>=7.5.6",
+    "pgcli>=4.5.0",
 ]
